@@ -1,0 +1,17 @@
+int sensor = 8;
+int rojo = 13;
+void setup()
+{
+pinMode(sensor, INPUT); 
+pinMode(rojo, OUTPUT); 
+}
+void loop()
+{
+int valor = digitalRead(sensor);
+if(valor == HIGH){ 
+digitalWrite(rojo, HIGH); 
+delay(3000);
+}else{ 
+digitalWrite(rojo, LOW); 
+}
+}
