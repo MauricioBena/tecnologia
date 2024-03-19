@@ -1,0 +1,44 @@
+/***   Global variables   ***/
+int pinROJO=13;
+int pinAMARILLO=12;
+int pinVERDE=11;
+
+/***   Function declaration   ***/
+
+/***   Tasks declaration   ***/
+
+/***   ISR function declaration   ***/
+
+void setup()
+{
+
+
+
+
+
+}
+
+
+void loop()
+{
+
+
+    pinMode(pinVERDE,OUTPUT);
+    digitalWrite(pinVERDE,HIGH);
+    delay(4000);
+    pinMode(pinVERDE,OUTPUT);
+    digitalWrite(pinVERDE,LOW);
+    pinMode(pinAMARILLO,OUTPUT);
+    digitalWrite(pinAMARILLO,HIGH);
+    delay(1000);
+    pinMode(pinAMARILLO,OUTPUT);
+    digitalWrite(pinAMARILLO,LOW);
+    pinMode(pinROJO,OUTPUT);
+    digitalWrite(pinROJO,HIGH);
+    delay(6000);
+    pinMode(pinROJO,OUTPUT);
+    digitalWrite(pinROJO,LOW);
+
+}
+
+/***   Function definition   ***/
